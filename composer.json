@@ -1,0 +1,22 @@
+{
+    "name": "ndcode/module-customrouter",
+    "description": "Nilesh Dubey",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nilesh Dubey",
+            "email": "nileshdubeynd5101@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "NdCode\\CustomRouter\\": ""
+        }
+    }
+}
